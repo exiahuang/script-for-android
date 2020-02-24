@@ -3,6 +3,7 @@
 ```sh
 # download
 curl -O -L -s https://raw.githubusercontent.com/exiahuang/script-for-android/master/classify.sh
+chmod 770 classify.sh
 
 # usage
 ./classify.sh $source_path $dest_path

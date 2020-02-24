@@ -29,7 +29,7 @@ classify() {
     mv *.pdf "$dest_path/pdf/"
     mv *.txt *.pdf *.doc *.docx *.ppt *.pptx "$dest_path/doc/"
     mv *.xla *.xls *.xlsx *.csv *.CSV *.xlsm "$dest_path/xls/"
-    mv *.jpg *.png "$dest_path/pic/"
+    mv *.jpg *.jpeg *.png "$dest_path/pic/"
 }
 
 classify $1 $2
